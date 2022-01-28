@@ -29,7 +29,6 @@ const ArticleInput = () => {
           placeholder='Title'
           name='title'
         />
-
         <input
           type='text'
           onChange={(e) => setImageUrl(e.target.value)}
@@ -37,7 +36,6 @@ const ArticleInput = () => {
           placeholder='Image URL'
           name='imageUrl'
         />
-
         <textarea
           value={body}
           onChange={(e) => setBody(e.target.value)}

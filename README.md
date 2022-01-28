@@ -1,14 +1,17 @@
-# Practice: React-Redux Create an Article
+# Practice: Using Forms with React-Redux
 
 In this short practice, you will create an article using the steps you've
 learned from previous short practices.
 
-## Setup
+## Set up
 
-Click the `Download Project` button at the bottom of this page to go to the
-starter repo, then load the repo into [CodeSandbox].
+Clone the starter repo accessible from the `Download Project` button at the
+bottom of this page and `cd` into the root directory.
 
-## Article Reducer Steps
+1. Run `npm install` to load all the dependencies.
+2. Run `npm start` to start the server and run your app `localhost:3000`.
+
+## Article reducer steps
 
 In the __src/store/articleReducer.js__ file:
 
@@ -22,11 +25,13 @@ In the __src/store/articleReducer.js__ file:
   Remember not to mutate state! Instead, update state by creating a new
   reference in memory for all objects, including nested objects.
 
-## ArticleInput Component Steps
+## `ArticleInput` component steps
 
-Note that `App` now displays a new component: `ArticleInput`. Once completed, this component will allow users to create new articles.
+Note that `App` now displays a new component: `ArticleInput`. Once completed,
+this component will allow users to create new articles.
 
-Use what you have learned in previous short practices to complete the `ArticleInput` component. You will need to add the following functionality:
+Use what you have learned in previous short practices to complete the
+`ArticleInput` component. You will need to add the following functionality:
 
 - Create the new article from submitted input to pass to the store.
 - Dispatch that object using the action creator you created above.
@@ -40,5 +45,3 @@ Use what you have learned in previous short practices to complete the `ArticleIn
 to
 
 1. Create a full Redux flow
-
-[CodeSandbox]: https://codesandbox.io
