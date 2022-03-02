@@ -5,11 +5,8 @@ learned from previous short practices.
 
 ## Setup
 
-Clone the starter repo accessible from the `Download Project` button at the
-bottom of this page and `cd` into the root directory.
-
-1. Run `npm install` to load all the dependencies.
-2. Run `npm start` to start the server and run your app `localhost:3000`.
+Click the `Download Project` button at the bottom of this page to go to the
+starter repo, then load the repo into [CodeSandbox].
 
 ## Article reducer steps
 
@@ -45,3 +42,5 @@ Use what you have learned in previous short practices to complete the
 to
 
 1. Create a full Redux flow
+
+[CodeSandbox]: https://codesandbox.io
